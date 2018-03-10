@@ -1,5 +1,5 @@
 /**
- * Package for {@link com.amk.eda.core.bus.EventBus} interface.
+ * Package for all {@link com.ecirilog.eda.core.bus.EventBus} interface implementations.
  *
  * @author Edgar Cirilo Gonzalez &lt;proed1612@gmail.com&gt;
  * @version 1.0.0
