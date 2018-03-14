@@ -46,18 +46,6 @@
           <version>${junit.version}</version>
           <scope>test</scope>
       </dependency>
-      <dependency>
-          <groupId>com.google.guava</groupId>
-          <artifactId>guava</artifactId>
-          <version>${guava.version}</version>
-          <scope>test</scope>
-      </dependency>
-      <dependency>
-          <groupId>com.google.guava</groupId>
-          <artifactId>guava-testlib</artifactId>
-          <version>${guava.version}</version>
-          <scope>test</scope>
-      </dependency>
       <!--LOGGER-->
       <dependency>
           <groupId>org.apache.logging.log4j</groupId>
@@ -71,9 +59,9 @@
       </dependency>
       <!--Utils Dependencies-->
       <dependency>
-          <groupId>org.projectlombok</groupId>
-          <artifactId>lombok</artifactId>
-          <version>${lombok.version}</version>
+          <groupId>org.yaml</groupId>
+          <artifactId>snakeyaml</artifactId>
+          <version>1.18</version>
       </dependency>
   </dependencies>
   <build>
